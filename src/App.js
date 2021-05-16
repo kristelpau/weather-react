@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Weather />
       <small>
-      <a href="https://github.com/kristelpau/weather-react" target="_blank">Open-source code</a> by Kristel Pau
+      <a href="https://github.com/kristelpau/weather-react">Open-source code</a> by Kristel Pau
     </small>
     </div>
     
