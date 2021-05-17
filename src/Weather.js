@@ -48,7 +48,7 @@ export default function Weather() {
           </ul>
         </div>
         <div className="col-6">
-          <div className="clearfix weather-temperature">
+          <div className="d-flex weather-temperature">
             <img
               src={weatherData.imgUrl}
               alt={weatherData.description}
