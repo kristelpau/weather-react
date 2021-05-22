@@ -22,6 +22,7 @@ export default function Weather() {
               placeholder="Type your city"
               className="form-control"
               autocomplete="off"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">

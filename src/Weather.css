@@ -68,3 +68,8 @@
 	padding-top: 7px;
 	white-space: nowrap;
 }
+
+.Weather ul {
+	margin: 0;
+	padding: 0;
+}
