@@ -5,10 +5,10 @@ import Weather from "./Weather";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity="Sydney"/>
       <small>
       <a href="https://github.com/kristelpau/weather-react">Open-source code</a> by Kristel Pau
     </small>
@@ -17,6 +17,6 @@ function App() {
   );
 }
 
-export default App;
+
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
