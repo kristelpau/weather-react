@@ -9,10 +9,9 @@
 	margin-bottom: 20px;
 }
 
-.Weather .weather-temperature img {
+.Weather canvas {
 	margin-right: 5px;
-	height: 64px;
-	width: 64px;
+	margin-top: 10px;
 }
 
 .Weather .weather-temperature strong {
